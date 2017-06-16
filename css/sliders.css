@@ -1,0 +1,147 @@
+.slideshow-container {
+  position: relative;
+  margin: auto;
+}
+
+.mySlides {
+    display: none;
+}
+
+.mySlides img {
+	width: 1000px;
+  	height: 620px;
+}
+
+.mySlides2 {
+    display: none;
+}
+
+.mySlides2 img {
+	width: 200px;
+  	height: 300px;
+}
+
+.mySlides3 {
+    display: none;
+}
+
+.mySlides3 img {
+	width: 200px;
+  	height: 300px;
+}
+
+.mySlides4 {
+    display: none;
+}
+
+.mySlides4 img {
+	width: 200px;
+  	height: 300px;
+}
+
+.mySlides5 {
+    display: none;
+}
+
+.mySlides5 img {
+	width: 200px;
+  	height: 300px;
+}
+
+.mySlides6 {
+    display: none;
+}
+
+.mySlides6 img {
+	width: 200px;
+  	height: 300px;
+}
+
+.mySlides7 {
+    display: none;
+}
+
+.mySlides7 img {
+	width: 200px;
+  	height: 300px;
+}
+
+.reducere {
+    display: block;
+}
+
+.reducere img {
+	width: 160px;
+  	height: 230px;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 35%;
+  width: auto;
+  color: white;
+  font-weight: bold;
+  font-size: 100px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  padding: 100px 2px;
+}
+.prev{
+	margin-left: -660px;
+}
+
+/* Position the "next button" to the right */
+.next {
+  	margin-left: 600px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+/* The dots/bullets/indicators */
+.dot {
+  cursor:pointer;
+  height: 13px;
+  width: 13px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1s;
+  animation-name: fade;
+  animation-duration: 1s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+
+/* Caption text */
+.text {
+  color:#1D2F67;
+  font-size: 15px;
+  padding: 8px 12px;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}

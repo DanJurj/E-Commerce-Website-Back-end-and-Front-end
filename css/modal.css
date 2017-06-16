@@ -1,0 +1,39 @@
+.center {
+    margin-top:50px;   
+}
+
+.modal-header {
+	padding-bottom: 5px;
+}
+
+.modal-footer {
+    	padding: 0;
+	}
+    
+.modal-footer .btn-group button {
+	height:40px;
+	border-top-left-radius : 0;
+	border-top-right-radius : 0;
+	border: none;
+	border-right: 1px solid #ddd;
+}
+	
+.modal-footer .btn-group:last-child > button {
+	border-right: 0;
+}
+
+#form-group{
+	color: black;
+}
+
+#addAnunt{
+	padding-bottom: 200px;
+}
+#anunturiContainer{
+	background-image: url(../pics/background.png);
+	background-size: 1600px 800px;
+}
+.control-label{
+	background-color:#676659;
+	border-radius: 20%;
+}

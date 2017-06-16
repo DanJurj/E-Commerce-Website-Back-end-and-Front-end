@@ -1,0 +1,47 @@
+#formReg p{
+	color: black;
+	text-decoration: underline;
+}
+
+.itemReg{
+	background-color: cornsilk;
+	border-radius: 30%;
+	margin: 10px 30px 10px 30px;
+	color: black;
+}
+#TabLogin
+{
+	background-color: burlywood;
+	width: 720px;
+	height: auto;
+	margin: 0 auto;
+	border-radius: 15%;
+}
+.Login{
+	margin: 10% 1% 10% 1%;
+	width: 46%;
+	float: left;
+	border-radius: 40%;
+	background-color:darkgrey;
+	border:solid 3px #46514A;
+	text-shadow: -1px 0 grey, 0 1px grey, 1px 0 grey, 0 -1px grey;
+	
+}
+.Login:hover{
+	background-color: #D6DFDB;
+}
+.Login h3{
+	color:black;
+}
+#RegHeader{
+	height: 150px;
+	background-color: darksalmon;
+	border-top-left-radius: 15%;
+	border-top-right-radius: 15%;
+}
+#buton1 {
+    width: 40%;
+	margin: 5% 3% 5% 3%;
+	background-color: grey;
+	border-radius: 100%;
+}
